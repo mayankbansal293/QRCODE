@@ -11,7 +11,7 @@ const MyComponent = () => {
     size: ""
   });
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setData(prevState => ({ ...prevState, [name]: value }));
   };
