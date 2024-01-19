@@ -19,9 +19,9 @@ export default function ProductPage() {
         <Image
           src={"/product.png"}
           alt="Main Product"
-          width={50}
-          height={50}
-          className="mb-4 w-full"
+          width={600}
+          height={600}
+          className="mb-4 "
         />
       </div>
       <div className="w-full md:w-3/4 pl-0 md:pl-8">
