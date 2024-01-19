@@ -17,7 +17,7 @@ export default function ProductPage() {
     <div className="flex flex-col md:flex-row p-4 md:p-8">
       <div className="w-full md:w-1/4 mb-4 md:mb-0">
         <Image
-          src={"https://www.sephora.com/productimages/sku/s2527844-main-zoom.jpg?imwidth=1224"}
+          src={"/product.png"}
           alt="Main Product"
           width={50}
           height={50}
